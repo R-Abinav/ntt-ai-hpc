@@ -1,0 +1,2 @@
+/usr/bin/ar qc libntt_core.a CMakeFiles/ntt_core.dir/src/core/ntt.cpp.o
+/usr/bin/ranlib libntt_core.a
