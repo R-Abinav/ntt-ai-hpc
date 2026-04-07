@@ -154,6 +154,34 @@ python python/api/test_api.py
 
 ---
 
+## Outputs
+
+### Speedup Curve
+
+Shows how much faster the parallel NTT is compared to the single-threaded baseline, for four large input sizes. For n=1,048,576 the transform runs around 3.3x faster at the sweet spot. For n=8,192 the overhead of spawning threads outweighs the benefit at higher thread counts, pulling speedup below 1x.
+
+![Speedup Curve](docs/plot1_speedup.png)
+
+### Threading Overhead Crossover
+
+Plots raw wall-clock time for 1 thread vs 4 threads across all NTT sizes. The two lines cross at n=4,096 — to the left of that point, 1 thread is faster; to the right, 4 threads wins. This crossover is why a fixed thread count is the wrong approach and why the cost model is needed.
+
+![Threading Overhead Crossover](docs/plot2_crossover.png)
+
+### Training Loss Curve
+
+MSE loss on log1p(time_us) for the MLP over 500 epochs. Train and test loss track each other closely throughout, which means the model is not overfitting — it generalises to unseen (n, threads) combinations. Loss drops from around 71 at epoch 0 to near 0 by epoch 300.
+
+![Training Loss Curve](docs/plot3_loss_curve.png)
+
+### AI-Predicted vs Actual Optimal Thread Count
+
+For each NTT size in the held-out test set, the model scores all 13 candidate thread counts and picks the one with the lowest predicted runtime. That prediction is plotted against the ground truth from the benchmark. The model correctly learns the two main regimes: use 1 thread for small n, and scale up threads for large n. Exact-match accuracy on the test set is 46.7%.
+
+![AI-Predicted vs Actual Optimal Thread Count](docs/plot4_predicted_vs_actual.png)
+
+---
+
 ## References
 
 - CRYSTALS-Kyber: https://github.com/pq-crystals/kyber
