@@ -255,6 +255,5 @@ print(f"  Saved: {out}")
 correct = sum(p == a for p, a in zip(predicted_opts, actual_opts))
 print(f"  Accuracy: {correct}/{len(test_ns)} = {100 * correct / len(test_ns):.1f}%")
 
-# ── done ──────────────────────────────────────────────────────────────────────
-
+#done
 print("\nAll plots saved to docs/")

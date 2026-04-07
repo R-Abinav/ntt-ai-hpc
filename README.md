@@ -180,6 +180,27 @@ For each NTT size in the held-out test set, the model scores all 13 candidate th
 
 ![AI-Predicted vs Actual Optimal Thread Count](docs/plot4_predicted_vs_actual.png)
 
+### XGBoost Feature Importance
+
+Shows which input feature the XGBoost cost model relies on most heavily. log2(n) accounts
+for 91.8% of the model's decision — the NTT size almost entirely determines the optimal
+thread count. The thread count feature contributes only 8.2%, confirming that the model
+learned to use threads as a scoring axis, not a primary signal.
+
+![XGBoost Feature Importance](docs/plot5_xgb_feature_importance.png)
+
+### XGBoost: Predicted vs Actual Optimal Thread Count
+
+XGBoost is evaluated on all 15 NTT sizes. The predicted and actual lines overlap exactly —
+100% exact-match accuracy across the full size range. XGBoost outperforms the MLP (66.7%)
+because the optimal thread count is a step function of n with sharp boundaries at n=4,096
+and n=131,072. Gradient boosted trees naturally represent step-function boundaries via
+axis-aligned splits, while the MLP smooths over them. For this problem — tabular input,
+sharp regime boundaries, small dataset — XGBoost is the better model and is set as the
+default in the Flask API.
+
+![XGBoost Predicted vs Actual](docs/plot6_xgb_predicted_vs_actual.png)
+
 ---
 
 ## References
