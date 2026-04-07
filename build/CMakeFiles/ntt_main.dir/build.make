@@ -96,6 +96,7 @@ ntt_main_EXTERNAL_OBJECTS =
 ntt_main: CMakeFiles/ntt_main.dir/src/main.cpp.o
 ntt_main: CMakeFiles/ntt_main.dir/build.make
 ntt_main: libntt_core.a
+ntt_main: /opt/homebrew/opt/libomp/lib/libomp.dylib
 ntt_main: CMakeFiles/ntt_main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ntt_main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ntt_main.dir/link.txt --verbose=$(VERBOSE)

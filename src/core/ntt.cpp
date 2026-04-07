@@ -2,6 +2,10 @@
 #include <stdexcept>
 #include <algorithm>
 
+#ifdef _OPENMP
+#include <omp.h>
+#endif
+
 // fast modular exponentiation: base^exp mod m
 uint64_t mod_pow(uint64_t base, uint64_t exp, uint64_t mod) {
     uint64_t result = 1;
@@ -26,12 +30,8 @@ uint64_t find_primitive_root_of_unity(uint64_t n, uint64_t p) {
     if ((p - 1) % n != 0)
         throw std::invalid_argument("p - 1 must be divisible by n");
 
-    // find a generator of the multiplicative group
-    // try small candidates
     for (uint64_t g = 2; g < p; g++) {
-        // candidate root of unity: g^((p-1)/n) mod p
         uint64_t w = mod_pow(g, (p - 1) / n, p);
-        // check it is a primitive n-th root (not a root of any smaller order dividing n)
         if (mod_pow(w, n, p) == 1 && mod_pow(w, n / 2, p) != 1) {
             return w;
         }
@@ -53,16 +53,28 @@ static void bit_reverse_permute(std::vector<uint64_t>& a) {
 }
 
 // forward ntt using iterative cooley-tukey butterfly
-void ntt_forward(std::vector<uint64_t>& a, uint64_t p) {
+// thread_count: number of OpenMP threads to use (0 = use OpenMP default / serial if unavailable)
+void ntt_forward(std::vector<uint64_t>& a, uint64_t p, int thread_count) {
     uint64_t n = a.size();
     if (n == 0 || (n & (n - 1)) != 0)
         throw std::invalid_argument("array length must be a power of 2");
 
     bit_reverse_permute(a);
 
+#ifdef _OPENMP
+    int nthreads = (thread_count > 0) ? thread_count : omp_get_max_threads();
+#endif
+
     for (uint64_t len = 2; len <= n; len <<= 1) {
         uint64_t w = find_primitive_root_of_unity(len, p);
-        for (uint64_t i = 0; i < n; i += len) {
+        int64_t  num_groups = static_cast<int64_t>(n / len);
+
+        // each group [i .. i+len) is fully independent — safe to parallelise
+#ifdef _OPENMP
+        #pragma omp parallel for schedule(static) num_threads(nthreads)
+#endif
+        for (int64_t g = 0; g < num_groups; g++) {
+            uint64_t i  = static_cast<uint64_t>(g) * len;
             uint64_t wn = 1;
             for (uint64_t j = 0; j < len / 2; j++) {
                 uint64_t u = a[i + j];
@@ -75,45 +87,58 @@ void ntt_forward(std::vector<uint64_t>& a, uint64_t p) {
     }
 }
 
-// inverse ntt
-void ntt_inverse(std::vector<uint64_t>& a, uint64_t p) {
+// inverse ntt (in-place)
+// thread_count: forwarded to internal ntt_forward call and scaling loop
+void ntt_inverse(std::vector<uint64_t>& a, uint64_t p, int thread_count) {
     uint64_t n = a.size();
 
     // perform forward ntt
-    ntt_forward(a, p);
+    ntt_forward(a, p, thread_count);
 
-    // reverse elements [1..n-1] to get inverse
+    // reverse elements [1..n-1] to obtain the inverse permutation
     std::reverse(a.begin() + 1, a.end());
 
     // scale by 1/n mod p
     uint64_t n_inv = mod_inv(n, p);
-    for (auto& x : a)
-        x = (__uint128_t)x * n_inv % p;
+
+#ifdef _OPENMP
+    int nthreads = (thread_count > 0) ? thread_count : omp_get_max_threads();
+    #pragma omp parallel for schedule(static) num_threads(nthreads)
+#endif
+    for (int64_t i = 0; i < static_cast<int64_t>(n); i++)
+        a[i] = (__uint128_t)a[i] * n_inv % p;
 }
 
 // polynomial multiplication: c = a * b mod p using ntt
+// thread_count: forwarded to all internal ntt calls and the pointwise multiply
 std::vector<uint64_t> poly_mul_ntt(std::vector<uint64_t> a,
                                     std::vector<uint64_t> b,
-                                    uint64_t p) {
+                                    uint64_t p,
+                                    int thread_count) {
     uint64_t result_size = a.size() + b.size() - 1;
 
-    // pad to next power of 2
+    // pad both inputs to the next power of 2
     uint64_t n = 1;
     while (n < result_size) n <<= 1;
     a.resize(n, 0);
     b.resize(n, 0);
 
-    // forward ntt on both
-    ntt_forward(a, p);
-    ntt_forward(b, p);
+    // forward ntt on both operands
+    ntt_forward(a, p, thread_count);
+    ntt_forward(b, p, thread_count);
 
-    // pointwise multiplication
+    // pointwise multiplication in the frequency domain
     std::vector<uint64_t> c(n);
-    for (uint64_t i = 0; i < n; i++)
+
+#ifdef _OPENMP
+    int nthreads = (thread_count > 0) ? thread_count : omp_get_max_threads();
+    #pragma omp parallel for schedule(static) num_threads(nthreads)
+#endif
+    for (int64_t i = 0; i < static_cast<int64_t>(n); i++)
         c[i] = (__uint128_t)a[i] * b[i] % p;
 
-    // inverse ntt to get result
-    ntt_inverse(c, p);
+    // inverse ntt to recover the product coefficients
+    ntt_inverse(c, p, thread_count);
 
     c.resize(result_size);
     return c;

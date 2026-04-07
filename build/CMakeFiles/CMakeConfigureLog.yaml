@@ -20,8 +20,11 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -35,12 +38,16 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     searched_directories:
+      - "/Users/abinav/.bun/bin/uname"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/uname"
       - "/Users/abinav/.antigravity/antigravity/bin/uname"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/uname"
+      - "/Users/abinav/.platformio/penv/bin/uname"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/uname"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/uname"
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
@@ -49,9 +56,13 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -65,9 +76,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -100,8 +115,11 @@ events:
       - "make"
       - "smake"
     candidate_directories:
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -115,12 +133,16 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     searched_directories:
+      - "/Users/abinav/.bun/bin/gmake"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/gmake"
       - "/Users/abinav/.antigravity/antigravity/bin/gmake"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/gmake"
+      - "/Users/abinav/.platformio/penv/bin/gmake"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/gmake"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/gmake"
       - "/opt/homebrew/bin/gmake"
       - "/opt/homebrew/sbin/gmake"
@@ -134,11 +156,15 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
       - "/Library/Apple/usr/bin/gmake"
+      - "/Applications/VMware Fusion.app/Contents/Public/gmake"
       - "/Users/abinav/.local/bin/gmake"
       - "/Users/abinav/.cargo/bin/gmake"
       - "/Users/abinav/go/bin/gmake"
+      - "/Users/abinav/.bun/bin/make"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/make"
       - "/Users/abinav/.antigravity/antigravity/bin/make"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/make"
+      - "/Users/abinav/.platformio/penv/bin/make"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/make"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/make"
       - "/opt/homebrew/bin/make"
       - "/opt/homebrew/sbin/make"
@@ -147,9 +173,13 @@ events:
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -163,9 +193,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -196,8 +230,11 @@ events:
       - "icx"
       - "clang++"
     candidate_directories:
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -211,12 +248,16 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     searched_directories:
+      - "/Users/abinav/.bun/bin/c++"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/c++"
       - "/Users/abinav/.antigravity/antigravity/bin/c++"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/c++"
+      - "/Users/abinav/.platformio/penv/bin/c++"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/c++"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/c++"
       - "/opt/homebrew/bin/c++"
       - "/opt/homebrew/sbin/c++"
@@ -225,9 +266,13 @@ events:
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -241,9 +286,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -275,9 +324,13 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -291,9 +344,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -382,8 +439,11 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -396,15 +456,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -418,9 +483,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -446,8 +515,11 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -460,15 +532,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -482,9 +559,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -510,8 +591,11 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -524,15 +608,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -546,9 +635,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -574,8 +667,11 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -588,15 +684,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -610,9 +711,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -638,8 +743,11 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -652,15 +760,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -674,9 +787,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -702,8 +819,11 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -716,15 +836,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -738,9 +863,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -766,8 +895,11 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -780,13 +912,17 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     searched_directories:
       - "/usr/bin/objcopy"
+      - "/Users/abinav/.bun/bin/objcopy"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/objcopy"
       - "/Users/abinav/.antigravity/antigravity/bin/objcopy"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/objcopy"
+      - "/Users/abinav/.platformio/penv/bin/objcopy"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/objcopy"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/objcopy"
       - "/opt/homebrew/bin/objcopy"
       - "/opt/homebrew/sbin/objcopy"
@@ -799,15 +935,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
       - "/Library/Apple/usr/bin/objcopy"
+      - "/Applications/VMware Fusion.app/Contents/Public/objcopy"
       - "/Users/abinav/.local/bin/objcopy"
       - "/Users/abinav/.cargo/bin/objcopy"
       - "/Users/abinav/go/bin/objcopy"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -821,9 +962,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -849,8 +994,11 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -863,13 +1011,17 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     searched_directories:
       - "/usr/bin/readelf"
+      - "/Users/abinav/.bun/bin/readelf"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/readelf"
       - "/Users/abinav/.antigravity/antigravity/bin/readelf"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/readelf"
+      - "/Users/abinav/.platformio/penv/bin/readelf"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/readelf"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/readelf"
       - "/opt/homebrew/bin/readelf"
       - "/opt/homebrew/sbin/readelf"
@@ -882,15 +1034,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
       - "/Library/Apple/usr/bin/readelf"
+      - "/Applications/VMware Fusion.app/Contents/Public/readelf"
       - "/Users/abinav/.local/bin/readelf"
       - "/Users/abinav/.cargo/bin/readelf"
       - "/Users/abinav/go/bin/readelf"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -904,9 +1061,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -932,8 +1093,11 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -946,13 +1110,17 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
+      - "/Users/abinav/.bun/bin/dlltool"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/dlltool"
       - "/Users/abinav/.antigravity/antigravity/bin/dlltool"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/dlltool"
+      - "/Users/abinav/.platformio/penv/bin/dlltool"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/dlltool"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/dlltool"
       - "/opt/homebrew/bin/dlltool"
       - "/opt/homebrew/sbin/dlltool"
@@ -965,15 +1133,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
       - "/Library/Apple/usr/bin/dlltool"
+      - "/Applications/VMware Fusion.app/Contents/Public/dlltool"
       - "/Users/abinav/.local/bin/dlltool"
       - "/Users/abinav/.cargo/bin/dlltool"
       - "/Users/abinav/go/bin/dlltool"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -987,9 +1160,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -1015,8 +1192,11 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1029,13 +1209,17 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     searched_directories:
       - "/usr/bin/addr2line"
+      - "/Users/abinav/.bun/bin/addr2line"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/addr2line"
       - "/Users/abinav/.antigravity/antigravity/bin/addr2line"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/addr2line"
+      - "/Users/abinav/.platformio/penv/bin/addr2line"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/addr2line"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/addr2line"
       - "/opt/homebrew/bin/addr2line"
       - "/opt/homebrew/sbin/addr2line"
@@ -1048,15 +1232,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
       - "/Library/Apple/usr/bin/addr2line"
+      - "/Applications/VMware Fusion.app/Contents/Public/addr2line"
       - "/Users/abinav/.local/bin/addr2line"
       - "/Users/abinav/.cargo/bin/addr2line"
       - "/Users/abinav/go/bin/addr2line"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1070,9 +1259,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -1098,8 +1291,11 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1112,13 +1308,17 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     searched_directories:
       - "/usr/bin/tapi"
+      - "/Users/abinav/.bun/bin/tapi"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/tapi"
       - "/Users/abinav/.antigravity/antigravity/bin/tapi"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/tapi"
+      - "/Users/abinav/.platformio/penv/bin/tapi"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/tapi"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/tapi"
       - "/opt/homebrew/bin/tapi"
       - "/opt/homebrew/sbin/tapi"
@@ -1131,15 +1331,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
       - "/Library/Apple/usr/bin/tapi"
+      - "/Applications/VMware Fusion.app/Contents/Public/tapi"
       - "/Users/abinav/.local/bin/tapi"
       - "/Users/abinav/.cargo/bin/tapi"
       - "/Users/abinav/go/bin/tapi"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1153,9 +1358,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -1180,8 +1389,11 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
+      - "/Users/abinav/.bun/bin/"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/"
       - "/Users/abinav/.antigravity/antigravity/bin/"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/"
+      - "/Users/abinav/.platformio/penv/bin/"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
@@ -1195,12 +1407,16 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/Users/abinav/.local/bin/"
       - "/Users/abinav/.cargo/bin/"
       - "/Users/abinav/go/bin/"
     searched_directories:
+      - "/Users/abinav/.bun/bin/install_name_tool"
+      - "/Users/abinav/.local/share/solana/install/active_release/bin/install_name_tool"
       - "/Users/abinav/.antigravity/antigravity/bin/install_name_tool"
-      - "/Users/abinav/.nvm/versions/node/v22.20.0/bin/install_name_tool"
+      - "/Users/abinav/.platformio/penv/bin/install_name_tool"
+      - "/Users/abinav/.nvm/versions/node/v24.10.0/bin/install_name_tool"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/install_name_tool"
       - "/opt/homebrew/bin/install_name_tool"
       - "/opt/homebrew/sbin/install_name_tool"
@@ -1209,9 +1425,13 @@ events:
     found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.antigravity/antigravity/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.platformio/penv/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1225,9 +1445,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/Library/Apple/usr/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
+        - "/Users/abinav/.bun/bin"
+        - "/Users/abinav/.local/share/solana/install/active_release/bin"
         - "/Users/abinav/.antigravity/antigravity/bin"
+        - "/Users/abinav/.platformio/penv/bin"
         - "/Users/abinav/.local/bin"
-        - "/Users/abinav/.nvm/versions/node/v22.20.0/bin"
+        - "/Users/abinav/.nvm/versions/node/v24.10.0/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
         - "/Users/abinav/.cargo/bin"
         - "/Users/abinav/go/bin"
@@ -1242,8 +1466,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-FDqwYM"
-      binary: "/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-FDqwYM"
+      source: "/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-1HoQ0a"
+      binary: "/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-1HoQ0a"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1256,19 +1480,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-FDqwYM'
+        Change Dir: '/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-1HoQ0a'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e5e8f/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e5e8f.dir/build.make CMakeFiles/cmTC_e5e8f.dir/build
-        Building CXX object CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_291dd/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_291dd.dir/build.make CMakeFiles/cmTC_291dd.dir/build
+        Building CXX object CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: arm64-apple-darwin25.0.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-FDqwYM -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-FDqwYM -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-1HoQ0a -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-1HoQ0a -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin25.0.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1282,13 +1506,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_e5e8f
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5e8f.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_291dd
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_291dd.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.0.13.5)
         Target: arm64-apple-darwin25.0.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.5.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e5e8f -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.5.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_291dd -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1167.5
         BUILD 01:45:05 Apr 30 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1300,7 +1524,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e5e8f
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_291dd
         
       exitCode: 0
   -
@@ -1344,19 +1568,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-FDqwYM']
+        ignore line: [Change Dir: '/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-1HoQ0a']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e5e8f/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e5e8f.dir/build.make CMakeFiles/cmTC_e5e8f.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_291dd/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_291dd.dir/build.make CMakeFiles/cmTC_291dd.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: arm64-apple-darwin25.0.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-FDqwYM -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-FDqwYM -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx15.5.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=15.5 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-1HoQ0a -target-linker-version 1167.5 -v -fcoverage-compilation-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-1HoQ0a -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.0.13.5) default target arm64-apple-darwin25.0.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1370,13 +1594,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_e5e8f]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5e8f.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_291dd]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_291dd.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.0.13.5)]
         ignore line: [Target: arm64-apple-darwin25.0.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.5.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e5e8f -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 15.5.0 15.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_291dd -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1393,12 +1617,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e5e8f] ==> ignore
+          arg [cmTC_291dd] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_e5e8f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_291dd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1432,4 +1656,39 @@ events:
       will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
       LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
       TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.0.3.5)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:492 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/FindOpenMP.cmake:632 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:19 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-hEgcdT"
+      binary: "/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-hEgcdT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-hEgcdT'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aec44/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aec44.dir/build.make CMakeFiles/cmTC_aec44.dir/build
+        Building CXX object CMakeFiles/cmTC_aec44.dir/OpenMPCheckVersion.cpp.o
+        /usr/bin/c++   -Xpreprocessor -fopenmp -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_aec44.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_aec44.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_aec44.dir/OpenMPCheckVersion.cpp.o -c /Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-hEgcdT/OpenMPCheckVersion.cpp
+        /Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/CMakeScratch/TryCompile-hEgcdT/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+            3 | #include <omp.h>
+              |          ^~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_aec44.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_aec44/fast] Error 2
+        
+      exitCode: 2
 ...

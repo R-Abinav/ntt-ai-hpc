@@ -1,5 +1,6 @@
 /Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/ntt_core.dir
 /Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/ntt_main.dir
 /Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/ntt_test.dir
+/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/bench_ntt.dir
 /Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/edit_cache.dir
 /Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles/rebuild_cache.dir

@@ -155,6 +155,43 @@ ntt_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntt_test.dir/build.make CMakeFiles/ntt_test.dir/build
 .PHONY : ntt_test/fast
 
+#=============================================================================
+# Target rules for targets named bench_ntt
+
+# Build rule for target.
+bench_ntt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bench_ntt
+.PHONY : bench_ntt
+
+# fast build rule for target.
+bench_ntt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_ntt.dir/build.make CMakeFiles/bench_ntt.dir/build
+.PHONY : bench_ntt/fast
+
+benchmarks/bench_ntt.o: benchmarks/bench_ntt.cpp.o
+.PHONY : benchmarks/bench_ntt.o
+
+# target to build an object file
+benchmarks/bench_ntt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_ntt.dir/build.make CMakeFiles/bench_ntt.dir/benchmarks/bench_ntt.cpp.o
+.PHONY : benchmarks/bench_ntt.cpp.o
+
+benchmarks/bench_ntt.i: benchmarks/bench_ntt.cpp.i
+.PHONY : benchmarks/bench_ntt.i
+
+# target to preprocess a source file
+benchmarks/bench_ntt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_ntt.dir/build.make CMakeFiles/bench_ntt.dir/benchmarks/bench_ntt.cpp.i
+.PHONY : benchmarks/bench_ntt.cpp.i
+
+benchmarks/bench_ntt.s: benchmarks/bench_ntt.cpp.s
+.PHONY : benchmarks/bench_ntt.s
+
+# target to generate assembly for a file
+benchmarks/bench_ntt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_ntt.dir/build.make CMakeFiles/bench_ntt.dir/benchmarks/bench_ntt.cpp.s
+.PHONY : benchmarks/bench_ntt.cpp.s
+
 src/core/ntt.o: src/core/ntt.cpp.o
 .PHONY : src/core/ntt.o
 
@@ -235,9 +272,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bench_ntt"
 	@echo "... ntt_core"
 	@echo "... ntt_main"
 	@echo "... ntt_test"
+	@echo "... benchmarks/bench_ntt.o"
+	@echo "... benchmarks/bench_ntt.i"
+	@echo "... benchmarks/bench_ntt.s"
 	@echo "... src/core/ntt.o"
 	@echo "... src/core/ntt.i"
 	@echo "... src/core/ntt.s"

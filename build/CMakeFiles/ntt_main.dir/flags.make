@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/src/core
+CXX_INCLUDES = -I/opt/homebrew/opt/libomp/include -I/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/src/core
 
-CXX_FLAGSarm64 = -O3 -DNDEBUG -std=gnu++17 -arch arm64
+CXX_FLAGSarm64 = -O3 -DNDEBUG -std=gnu++17 -arch arm64 -Xpreprocessor -fopenmp
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -arch arm64
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -arch arm64 -Xpreprocessor -fopenmp
 

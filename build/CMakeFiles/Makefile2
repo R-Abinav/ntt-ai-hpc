@@ -66,12 +66,14 @@ CMAKE_BINARY_DIR = /Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-a
 all: CMakeFiles/ntt_core.dir/all
 all: CMakeFiles/ntt_main.dir/all
 all: CMakeFiles/ntt_test.dir/all
+all: CMakeFiles/bench_ntt.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/ntt_core.dir/codegen
 codegen: CMakeFiles/ntt_main.dir/codegen
 codegen: CMakeFiles/ntt_test.dir/codegen
+codegen: CMakeFiles/bench_ntt.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -82,6 +84,7 @@ preinstall:
 clean: CMakeFiles/ntt_core.dir/clean
 clean: CMakeFiles/ntt_main.dir/clean
 clean: CMakeFiles/ntt_test.dir/clean
+clean: CMakeFiles/bench_ntt.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -91,7 +94,7 @@ clean: CMakeFiles/ntt_test.dir/clean
 CMakeFiles/ntt_core.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntt_core.dir/build.make CMakeFiles/ntt_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntt_core.dir/build.make CMakeFiles/ntt_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=1,2 "Built target ntt_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=3,4 "Built target ntt_core"
 .PHONY : CMakeFiles/ntt_core.dir/all
 
 # Build rule for subdir invocation for target.
@@ -108,7 +111,7 @@ ntt_core: CMakeFiles/ntt_core.dir/rule
 # codegen rule for target.
 CMakeFiles/ntt_core.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntt_core.dir/build.make CMakeFiles/ntt_core.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=1,2 "Finished codegen for target ntt_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=3,4 "Finished codegen for target ntt_core"
 .PHONY : CMakeFiles/ntt_core.dir/codegen
 
 # clean rule for target.
@@ -123,7 +126,7 @@ CMakeFiles/ntt_core.dir/clean:
 CMakeFiles/ntt_main.dir/all: CMakeFiles/ntt_core.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntt_main.dir/build.make CMakeFiles/ntt_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntt_main.dir/build.make CMakeFiles/ntt_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=3,4 "Built target ntt_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=5,6 "Built target ntt_main"
 .PHONY : CMakeFiles/ntt_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,7 +143,7 @@ ntt_main: CMakeFiles/ntt_main.dir/rule
 # codegen rule for target.
 CMakeFiles/ntt_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntt_main.dir/build.make CMakeFiles/ntt_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=3,4 "Finished codegen for target ntt_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=5,6 "Finished codegen for target ntt_main"
 .PHONY : CMakeFiles/ntt_main.dir/codegen
 
 # clean rule for target.
@@ -155,7 +158,7 @@ CMakeFiles/ntt_main.dir/clean:
 CMakeFiles/ntt_test.dir/all: CMakeFiles/ntt_core.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntt_test.dir/build.make CMakeFiles/ntt_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntt_test.dir/build.make CMakeFiles/ntt_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=5,6 "Built target ntt_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=7,8 "Built target ntt_test"
 .PHONY : CMakeFiles/ntt_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -172,13 +175,45 @@ ntt_test: CMakeFiles/ntt_test.dir/rule
 # codegen rule for target.
 CMakeFiles/ntt_test.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntt_test.dir/build.make CMakeFiles/ntt_test.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=5,6 "Finished codegen for target ntt_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=7,8 "Finished codegen for target ntt_test"
 .PHONY : CMakeFiles/ntt_test.dir/codegen
 
 # clean rule for target.
 CMakeFiles/ntt_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ntt_test.dir/build.make CMakeFiles/ntt_test.dir/clean
 .PHONY : CMakeFiles/ntt_test.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/bench_ntt.dir
+
+# All Build rule for target.
+CMakeFiles/bench_ntt.dir/all: CMakeFiles/ntt_core.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_ntt.dir/build.make CMakeFiles/bench_ntt.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_ntt.dir/build.make CMakeFiles/bench_ntt.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=1,2 "Built target bench_ntt"
+.PHONY : CMakeFiles/bench_ntt.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bench_ntt.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bench_ntt.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles 0
+.PHONY : CMakeFiles/bench_ntt.dir/rule
+
+# Convenience name for target.
+bench_ntt: CMakeFiles/bench_ntt.dir/rule
+.PHONY : bench_ntt
+
+# codegen rule for target.
+CMakeFiles/bench_ntt.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_ntt.dir/build.make CMakeFiles/bench_ntt.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/abinav/Desktop/course-work/hybrid-ai-hpc-project/ntt-ai-hpc/build/CMakeFiles --progress-num=1,2 "Finished codegen for target bench_ntt"
+.PHONY : CMakeFiles/bench_ntt.dir/codegen
+
+# clean rule for target.
+CMakeFiles/bench_ntt.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_ntt.dir/build.make CMakeFiles/bench_ntt.dir/clean
+.PHONY : CMakeFiles/bench_ntt.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

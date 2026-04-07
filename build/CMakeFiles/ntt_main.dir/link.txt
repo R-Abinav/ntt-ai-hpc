@@ -1,1 +1,1 @@
-/usr/bin/c++ -O3 -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ntt_main.dir/src/main.cpp.o -o ntt_main  libntt_core.a
+/usr/bin/c++ -O3 -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ntt_main.dir/src/main.cpp.o -o ntt_main  libntt_core.a /opt/homebrew/opt/libomp/lib/libomp.dylib
