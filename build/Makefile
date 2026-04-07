@@ -168,6 +168,56 @@ bench_ntt/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_ntt.dir/build.make CMakeFiles/bench_ntt.dir/build
 .PHONY : bench_ntt/fast
 
+#=============================================================================
+# Target rules for targets named bench_comparison
+
+# Build rule for target.
+bench_comparison: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bench_comparison
+.PHONY : bench_comparison
+
+# fast build rule for target.
+bench_comparison/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_comparison.dir/build.make CMakeFiles/bench_comparison.dir/build
+.PHONY : bench_comparison/fast
+
+#=============================================================================
+# Target rules for targets named stark_demo
+
+# Build rule for target.
+stark_demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stark_demo
+.PHONY : stark_demo
+
+# fast build rule for target.
+stark_demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stark_demo.dir/build.make CMakeFiles/stark_demo.dir/build
+.PHONY : stark_demo/fast
+
+benchmarks/bench_comparison.o: benchmarks/bench_comparison.cpp.o
+.PHONY : benchmarks/bench_comparison.o
+
+# target to build an object file
+benchmarks/bench_comparison.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_comparison.dir/build.make CMakeFiles/bench_comparison.dir/benchmarks/bench_comparison.cpp.o
+.PHONY : benchmarks/bench_comparison.cpp.o
+
+benchmarks/bench_comparison.i: benchmarks/bench_comparison.cpp.i
+.PHONY : benchmarks/bench_comparison.i
+
+# target to preprocess a source file
+benchmarks/bench_comparison.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_comparison.dir/build.make CMakeFiles/bench_comparison.dir/benchmarks/bench_comparison.cpp.i
+.PHONY : benchmarks/bench_comparison.cpp.i
+
+benchmarks/bench_comparison.s: benchmarks/bench_comparison.cpp.s
+.PHONY : benchmarks/bench_comparison.s
+
+# target to generate assembly for a file
+benchmarks/bench_comparison.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_comparison.dir/build.make CMakeFiles/bench_comparison.dir/benchmarks/bench_comparison.cpp.s
+.PHONY : benchmarks/bench_comparison.cpp.s
+
 benchmarks/bench_ntt.o: benchmarks/bench_ntt.cpp.o
 .PHONY : benchmarks/bench_ntt.o
 
@@ -191,6 +241,30 @@ benchmarks/bench_ntt.s: benchmarks/bench_ntt.cpp.s
 benchmarks/bench_ntt.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bench_ntt.dir/build.make CMakeFiles/bench_ntt.dir/benchmarks/bench_ntt.cpp.s
 .PHONY : benchmarks/bench_ntt.cpp.s
+
+demo/stark_demo.o: demo/stark_demo.cpp.o
+.PHONY : demo/stark_demo.o
+
+# target to build an object file
+demo/stark_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stark_demo.dir/build.make CMakeFiles/stark_demo.dir/demo/stark_demo.cpp.o
+.PHONY : demo/stark_demo.cpp.o
+
+demo/stark_demo.i: demo/stark_demo.cpp.i
+.PHONY : demo/stark_demo.i
+
+# target to preprocess a source file
+demo/stark_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stark_demo.dir/build.make CMakeFiles/stark_demo.dir/demo/stark_demo.cpp.i
+.PHONY : demo/stark_demo.cpp.i
+
+demo/stark_demo.s: demo/stark_demo.cpp.s
+.PHONY : demo/stark_demo.s
+
+# target to generate assembly for a file
+demo/stark_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stark_demo.dir/build.make CMakeFiles/stark_demo.dir/demo/stark_demo.cpp.s
+.PHONY : demo/stark_demo.cpp.s
 
 src/core/ntt.o: src/core/ntt.cpp.o
 .PHONY : src/core/ntt.o
@@ -272,13 +346,21 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bench_comparison"
 	@echo "... bench_ntt"
 	@echo "... ntt_core"
 	@echo "... ntt_main"
 	@echo "... ntt_test"
+	@echo "... stark_demo"
+	@echo "... benchmarks/bench_comparison.o"
+	@echo "... benchmarks/bench_comparison.i"
+	@echo "... benchmarks/bench_comparison.s"
 	@echo "... benchmarks/bench_ntt.o"
 	@echo "... benchmarks/bench_ntt.i"
 	@echo "... benchmarks/bench_ntt.s"
+	@echo "... demo/stark_demo.o"
+	@echo "... demo/stark_demo.i"
+	@echo "... demo/stark_demo.s"
 	@echo "... src/core/ntt.o"
 	@echo "... src/core/ntt.i"
 	@echo "... src/core/ntt.s"

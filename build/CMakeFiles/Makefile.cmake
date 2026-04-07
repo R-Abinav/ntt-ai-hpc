@@ -121,4 +121,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ntt_main.dir/DependInfo.cmake"
   "CMakeFiles/ntt_test.dir/DependInfo.cmake"
   "CMakeFiles/bench_ntt.dir/DependInfo.cmake"
+  "CMakeFiles/bench_comparison.dir/DependInfo.cmake"
+  "CMakeFiles/stark_demo.dir/DependInfo.cmake"
   )

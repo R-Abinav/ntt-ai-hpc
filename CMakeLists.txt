@@ -42,3 +42,15 @@ target_link_libraries(ntt_test PRIVATE ntt_core)
 # benchmark executable
 add_executable(bench_ntt benchmarks/bench_ntt.cpp)
 target_link_libraries(bench_ntt PRIVATE ntt_core)
+
+add_executable(bench_comparison benchmarks/bench_comparison.cpp)
+target_link_libraries(bench_comparison PRIVATE ntt_core)
+if(OpenMP_CXX_FOUND)
+    target_link_libraries(bench_comparison PRIVATE OpenMP::OpenMP_CXX)
+endif()
+
+add_executable(stark_demo demo/stark_demo.cpp)
+target_link_libraries(stark_demo PRIVATE ntt_core)
+if(OpenMP_CXX_FOUND)
+    target_link_libraries(stark_demo PRIVATE OpenMP::OpenMP_CXX)
+endif()

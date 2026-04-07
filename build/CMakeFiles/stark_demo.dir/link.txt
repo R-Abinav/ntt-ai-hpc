@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/stark_demo.dir/demo/stark_demo.cpp.o -o stark_demo  libntt_core.a /opt/homebrew/opt/libomp/lib/libomp.dylib

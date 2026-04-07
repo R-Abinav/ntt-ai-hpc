@@ -203,6 +203,38 @@ default in the Flask API.
 
 ---
 
+## Three-Way Performance Comparison: Serial vs Pure-HPC vs AI-HPC
+
+The core claim of this project is that blindly using maximum threads is not optimal. This comparison runs the same `poly_mul_ntt` across all NTT sizes three ways:
+
+- **Serial** — 1 thread, no parallelism
+- **Pure HPC** — maximum available threads (OpenMP default)
+- **AI-HPC** — thread count selected by the XGBoost cost model at runtime
+
+### Wall-Clock Time (all sizes)
+
+For small NTT sizes, Pure HPC is up to 17x slower than serial due to thread spawn overhead. AI-HPC avoids this by selecting 1 thread for small n. At the crossover (n=4096), AI-HPC picks 4 threads and achieves 1.55x speedup while Pure HPC is still below serial. At large n, both converge — but AI-HPC never regresses.
+
+![Three-Way Comparison](docs/plot7_three_way_comparison.png)
+
+### Speedup vs Serial Baseline
+
+The red-shaded zone shows where Pure HPC is actually slower than a single thread. AI-HPC stays above the baseline across the entire size range.
+
+![Speedup vs Serial](docs/plot8_speedup_vs_serial.png)
+
+### Key numbers
+
+| n | Serial (µs) | Pure HPC (µs) | AI-HPC (µs) | AI threads | AI Speedup |
+|---|---|---|---|---|---|
+| 64 | 53.8 | 440.5 | 19.2 | 1 | 2.80x |
+| 4096 | 923.2 | 943.7 | 597.1 | 4 | 1.55x |
+| 65536 | 19194.0 | 8055.6 | 7720.0 | 4 | 2.49x |
+| 1048576 | 392771.0 | 121531.0 | 117444.0 | 16 | 3.34x |
+
+Full results: [`results/comparison.csv`](results/comparison.csv)
+---
+
 ## References
 
 - CRYSTALS-Kyber: https://github.com/pq-crystals/kyber
